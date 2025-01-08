@@ -1,0 +1,56 @@
+:root {
+    --cor-texto-destaque: #DAFF01;
+    --cor-botao-destaque: #9353FF;
+    --hover-botao: #ad7dff;
+}
+
+/* Definindo a largura de cada container de nossas facilidades  */
+.container-facilidades {
+    width: 325px;
+}
+
+/* Destacando o texto e os ícones da seção de nossas facilidades */
+.cor-destaque {
+    color: var(--cor-texto-destaque);
+}
+
+/* Cor de fundo lilás dos botões da seção produtos que estão bombando  */
+.cor-destaque-secundario {
+    background-color: var(--cor-botao-destaque);
+}
+
+/* Hover dos botões */
+.cor-destaque-secundario:hover {
+    background-color: var(--hover-botao);
+    border-color: var(--hover-botao);
+}
+
+/* Descrição das seções de cada facilidade da seção de conheça as nossas facilidades */
+.texto-menor {
+    font-size: 13px;
+}
+
+/* Ajustando as imagens do carrossel */
+.carousel-item img {
+    width: 100vw;
+    height: auto;
+}
+
+/* Ajustando a largura da seção de novidades */
+.container-novidades {
+    width: 325px;
+}
+
+@media screen and (min-width: 768px) {
+    /* Ajustando a largura da seção de novidades para tablets */
+    .container-novidades {
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    /* Ajustando a largura da seção de novidades para desktops */
+    .container-novidades {
+        width: 60%;
+    }
+}
